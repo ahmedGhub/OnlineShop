@@ -17,4 +17,4 @@ router.get('/add-product', productConroller.getAddProducts);
 router.post('/add-product', productConroller.postAddProduct);
 
 
-exports.routes = router;
+module.exports = router;

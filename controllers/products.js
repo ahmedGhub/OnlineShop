@@ -2,7 +2,7 @@ const Product = require('../models/product');
 
 
 exports.getAddProducts = (req, res, next) => {
-    let products = Product.fetchAll();
+
     res.render("add-product", { pageTitle: "Adding Product" });
 };
 
